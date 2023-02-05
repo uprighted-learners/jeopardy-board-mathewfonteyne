@@ -1,0 +1,106 @@
+body {
+    background-image: url(https://www.jeopardy.com/sites/default/files/social_meta/jeopardy_logo.jpg);
+}
+/* i want to add a scrolling ticker effect to the footer */
+footer {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    position: relative;
+    margin-top: 4vh;
+    bottom: 0;
+    width: 100%;
+    font-size: 10vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.game_board {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 5rem;
+    justify-content: center;
+}
+
+.final {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    block-size: 25rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: blue;
+    border: 5px solid black;
+}
+
+.final-clue {
+    display: inline;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+.grid-item {
+    background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 6vh;
+    text-align: center;
+    border: 5px solid black;
+}
+.jeopardy_img {
+    text-align: center;
+}
+
+header {
+    font-size: 2vw;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.player_turn {
+    text-align: center;
+}
+
+.play_button {
+    text-align: center;
+    margin-top: 2%;
+}
+
+button {
+    background-color: blueviolet;
+    color: antiquewhite;
+    text-align: center;
+    height: 10vh;
+    width: fit-content;
+    font-size: 6vh;
+    margin: 1vh;
+    cursor: pointer;
+}
+
+.player_input {
+    text-align: center;
+}
+
+input {
+    font-size: 6vh;
+    margin-bottom: 2vh;
+}
+
+div.player_score {
+    margin-bottom: 5vh;
+}
+
+.player1_score {
+    float: left;
+}
+
+.player2_score {
+    float: right;
+}
