@@ -35,15 +35,12 @@ footer {
 }
 
 .final-clue { 
-    display: inline;
-    text-align: center; 
-    position: relative;
-    width: fit-content;
-    font-size: 4rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-se;
     color: white;
-    padding-bottom: 10rem;
-    padding-top: 10rem;
 }
 
 .grid-item {
