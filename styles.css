@@ -1,103 +1,113 @@
 body {
-    background-image: url(https://www.jeopardy.com/sites/default/files/social_meta/jeopardy_logo.jpg);
+  background-image: url(https://www.jeopardy.com/sites/default/files/social_meta/jeopardy_logo.jpg);
 }
-/* i want to add a scrolling ticker effect to the footer */
 footer {
-    text-align: center;
-    color: white;
-    background-color: blue;
-    position: relative;
-    margin-top: 4vh;
-    bottom: 0;
-    width: 100%;
-    font-size: 10vh;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* styling for the footer of the app/webpage */
+  text-align: center;
+  color: white;
+  background-color: blue;
+  position: relative;
+  margin-top: 4vh;
+  bottom: 0;
+  width: 100%;
+  font-size: 10vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .game_board {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    margin: 5rem;
-    justify-content: center;
+  display: grid;
+  /* Creating six even columns */
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: 5rem;
+  justify-content: center;
 }
 
 .final {
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    block-size: 25rem;
-    margin-top: 7rem;
-    margin-bottom: 3rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    background-color: blue;
-    border: 1vh solid black;
+  /* Targeting and styling the final page of the app */
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  block-size: 25rem;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  background-color: blue;
+  border: 1vh solid black;
 }
 
-.final-clue { 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-se;
-    color: white;
+.final-clue {
+  /* styling the content within the final clue box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-se;
+  color: white;
 }
 
 .grid-item {
-    background-color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    font-size: 6vh;
-    text-align: center;
-    border: 1vh solid black;
+  background-color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  font-size: 6vh;
+  text-align: center;
+  border: 1vh solid black;
 }
 .jeopardy_img {
-    text-align: center;
+  /* aligning the picture on in the index.html file */
+  text-align: center;
 }
 
 header {
-    font-size: 2vw;
-    text-align: center;
-    color: antiquewhite;
+  /* styling for the header */
+  font-size: 2vw;
+  text-align: center;
+  color: antiquewhite;
 }
 
 .player_turn {
-    text-align: center;
+  text-align: center;
 }
 
 .play_button {
-    text-align: center;
-    margin-top: 2%;
+  text-align: center;
+  /* adding a margin to the button to give a better look */
+  margin-top: 2%;
 }
 
 button {
-    background-color: blueviolet;
-    color: antiquewhite;
-    text-align: center;
-    height: 3rem;
-    width: fit-content;
-    font-size: 2rem;
-    margin: 1vh;
-    cursor: pointer;
+  background-color: blueviolet;
+  color: antiquewhite;
+  text-align: center;
+  height: 3rem;
+  width: fit-content;
+  font-size: 2rem;
+  margin: 1vh;
+  cursor: pointer;
 }
 
 .player_input {
-    text-align: center;
+  text-align: center;
 }
 
 input {
-    font-size: 6vh;
-    margin-bottom: 2vh;
+  /* styling for the input field */
+  font-size: 6vh;
+  margin-bottom: 2vh;
 }
 
 div.player_score {
-    margin-bottom: 5vh;
+  /* adding a bottom margin to separate the content */
+  margin-bottom: 5vh;
 }
 
 .player1_score {
-    float: left;
+  /* floating the player one score to the left of the screen */
+  float: left;
 }
 
 .player2_score {
-    float: right;
+  /* floating the player 2 score to the right of the screen */
+  float: right;
 }
