@@ -205,7 +205,7 @@ const placeholderQuestions = [
   {
     category: "Mythology",
     question:
-      "What mytological creatures have women's faces and vultures' bodies?",
+      "What mythological creatures have women's faces and vultures' bodies?",
     answer: "Harpies",
   },
   {
@@ -280,7 +280,7 @@ const placeholderQuestions = [
   },
   {
     category: "General",
-    question: "What is the French word for &quot;hat&quot;?",
+    question: "What is the French word for hat?",
     answer: "Chapeau",
   },
   {
@@ -311,7 +311,7 @@ const placeholderQuestions = [
   },
   {
     category: "General",
-    question: "Who is the youngest person to recieve a Nobel Prize?",
+    question: "Who is the youngest person to receive a Nobel Prize?",
     answer: "Malala Yousafzai",
   },
   {
@@ -326,4 +326,5 @@ const placeholderQuestions = [
   },
 ];
 
+// This exports the file contents so it can be imported into another file.
 export default placeholderQuestions;
